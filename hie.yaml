@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+  - path: "./lib"
+    component: "lib:pluckingadjunction"
+
+  - path: "./app"
+    component: "pluckingadjunction:exe:pluckingadjunction"
+
+  - path: "./app/Paths_pluckingadjunction.hs"
+    component: "pluckingadjunction:exe:pluckingadjunction"
